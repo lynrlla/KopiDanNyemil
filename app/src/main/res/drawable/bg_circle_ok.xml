@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Menggunakan warna accent_peach yang senada -->
+    <solid android:color="@color/accent_peach"/>
+</shape>

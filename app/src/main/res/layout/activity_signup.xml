@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join as a member &amp; experience more fun from various meal at mesen_gube marketing app"
+        android:textColor="@color/text_hint"
+        android:textSize="14sp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Tombol Register -->
+    <Button
+        android:id="@+id/btnToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:textColor="@color/accent_peach"
+        android:backgroundTint="@color/text_dark"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+    <!-- Tombol Login -->
+    <Button
+        android:id="@+id/btnToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="@color/accent_peach"
+        android:backgroundTint="@color/text_dark"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
