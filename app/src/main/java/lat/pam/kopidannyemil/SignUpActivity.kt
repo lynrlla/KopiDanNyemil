@@ -13,14 +13,13 @@ class SignUpActivity : AppCompatActivity() {
         val btnToRegister = findViewById<Button>(R.id.btnToRegister)
         val btnToLogin = findViewById<Button>(R.id.btnToLogin)
 
-        btnToRegister.setOnClickListener {
-            // Tambahkan .java di sini
+        // Logika tombol register & login tetap aman dan berfungsi normal
+        btnToRegister?.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
 
-        btnToLogin.setOnClickListener {
-            // Tambahkan .java di sini
+        btnToLogin?.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }

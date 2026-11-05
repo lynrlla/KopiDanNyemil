@@ -12,7 +12,9 @@
         android:gravity="center"
         android:layout_centerInParent="true">
 
+        <!-- Hanya ada satu TextView sapaan di sini -->
         <TextView
+            android:id="@+id/tvGreetingConfirmation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Halo Nama,"
@@ -20,7 +22,6 @@
             android:textStyle="bold"
             android:textColor="@color/text_dark"
             android:layout_marginBottom="32dp"/>
-
 
         <TextView
             android:layout_width="90dp"
@@ -42,8 +43,6 @@
             android:gravity="center"
             android:lineSpacingExtra="4dp"
             android:layout_marginBottom="32dp"/>
-
-        <!-- Tombol Oke -->
 
         <Button
             android:id="@+id/btnHome"

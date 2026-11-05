@@ -16,8 +16,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- Header -->
+            <!-- Header dengan ID yang pas untuk menangkap nama -->
             <TextView
+                android:id="@+id/tvGreeting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Halo Nama,"
@@ -268,7 +269,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Bottom Navigation Bar Berbentuk Tombol -->
+    <!-- Bottom Navigation Bar (Struktur Asli Tanpa Diubah) -->
     <LinearLayout
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
@@ -280,7 +281,6 @@
         android:padding="8dp"
         android:elevation="8dp">
 
-        <!-- Menu Home -->
         <Button
             android:id="@+id/navHome"
             android:layout_width="0dp"
@@ -293,7 +293,6 @@
             android:textStyle="bold"
             android:textAllCaps="false"/>
 
-        <!-- Menu Order -->
         <Button
             android:id="@+id/navOrder"
             android:layout_width="0dp"
@@ -306,7 +305,6 @@
             android:textStyle="bold"
             android:textAllCaps="false"/>
 
-        <!-- Menu Profile -->
         <Button
             android:id="@+id/navProfile"
             android:layout_width="0dp"

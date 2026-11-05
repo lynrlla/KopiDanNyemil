@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Join as a member &amp; experience more fun from various meal at mesen_gube marketing app"
+        android:text="Join as a member &amp; experience more fun from various meal at KopiDanNyemil app"
         android:textColor="@color/text_hint"
         android:textSize="14sp"
         android:layout_gravity="start"

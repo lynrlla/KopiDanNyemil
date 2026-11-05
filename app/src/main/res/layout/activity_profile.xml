@@ -10,7 +10,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- Berikan ID tvProfileGreeting di sini agar bisa diubah dari Kotlin -->
         <TextView
+            android:id="@+id/tvProfileGreeting"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Halo Nama,"
